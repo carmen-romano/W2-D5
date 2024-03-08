@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e4e5e3;
+  font-size: 1.2em;
+}
+
+header,
+footer {
+  background-color: #27313d;
+  color: white;
+}
+
+#logo img {
+  width: 5%;
+  margin: 1vh 0;
+}
+
+nav {
+  background-color: #354658;
+}
+
+nav ul a {
+  cursor: pointer;
+  margin: 0 3px;
+  text-decoration: none;
+}
+
+main,
+ul,
+#logo img {
+  margin: 0 2vw;
+  padding: 0.7vw;
+}
+
+.firstBanner,
+a {
+  color: #ecebee;
+  font-size: 0.6em;
+}
+
+.firstBanner {
+  padding: 3px;
+  background-color: #f36602;
+  text-align: center;
+}
+
+.firstBanner,
+.secondBanner,
+.primary {
+  margin: 1vh 0;
+}
+
+.secondBanner {
+  color: #e4e5e3;
+  text-align: center;
+  padding: 5vw;
+  background-image: url(/assets/images/bg-image.png);
+  background-position-x: -30px;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.secondBanner h1,
+.secondBanner h3 {
+  font-weight: 800;
+}
+
+.secondBanner h3 {
+  margin-top: 2%;
+  font-size: 0.8em;
+}
+
+.primary {
+  background-color: white;
+}
+
+.button {
+  margin: 3vw 0 0 6vw;
+}
+
+.button h3 {
+  display: inline;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.button a {
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 0.6em;
+  color: #3e7366;
+  text-decoration: none;
+}
+
+.containerX3 {
+  margin: 1vw auto;
+  text-align: center;
+}
+
+.cardX3 {
+  display: inline-block;
+  width: 20%;
+  margin: 0 1vw;
+}
+
+.cardX3 img {
+  width: 100%;
+  height: 18vw;
+  box-shadow: 4px 12px 12px -1px #d2d2d2d4;
+  border-radius: 10px;
+}
+
+.containerX2 {
+  padding-top: 2vw;
+  background-color: #e4e5e3;
+  text-align: center;
+}
+
+.cardX2 {
+  margin-bottom: 2vw;
+}
+
+.cardX2 p {
+  display: inline;
+  font-size: 0.7em;
+}
+
+.cardX2 a {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.6em;
+  color: #3e7366;
+  text-decoration: none;
+}
+
+.cardX2 img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  padding: 1vw;
+  display: block;
+  background-color: #354658;
+}
+
+#logoFooter img {
+  padding: 2vw;
+  width: 8%;
+}
